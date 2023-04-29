@@ -1,30 +1,77 @@
-@media (min-width: 1400px)
-    //.col-xxl-
-    .container
-        max-width: 1320px 
+// @media (min-width: 1400px)
+//     //.col-xxl-
+//     .container
+//         max-width: 1320px 
 
-@media (max-width: 1399px)
-    //.col-xl-
-    .container
-        max-width: 1140px 
+@media (min-width: 1200px)
+	//.col-xl-
+	.container
+		max-width: 1140px 
 
 @media (max-width: 1199px)
-    //.col-lg-
-    .container
-        max-width: 960px 
+	//.col-lg-
+	.container
+		max-width: 960px 
 
 @media (max-width: 991px) 
-    //.col-md-
-    .container
-        max-width: 720px
+	//.col-md-
+	.container
+		max-width: 720px
+	.header
+		text-align: center
+		&__block
+			flex-direction: column-reverse
+			align-items: center
+		&__title
+			margin-top: 50px
+	.more
+		text-align: center
+		.title
+			text-align: center
+		&__inside
+			padding: 100px 0
+			height: auto
+		&__block
+			flex-direction: column-reverse
+		&__text-part
+			width: 432px
+		&__parag
+			width: 371px
+			margin: 24px auto
+
 
 @media (max-width: 767px) 
-    //.col-sm-
-    .container
-        max-width: 540px
+	//.col-sm-
+	.container
+		max-width: 540px
+	.inside
+		text-align: center
+		padding: 90px 0
+		// .inside__items
+		&__items
+			width: auto
+		&__item
+			flex-direction: column
+			align-items: center
+		&__item-img
+			width: 73px
 
 @media (max-width: 575px) 
-    //.col-
-    .container
-        max-width: 100%
+	//.col-
+	.container
+		max-width: 100%
+	.header
+		&__block
+			margin-top: 50px
+	.title
+		font-size: 38px
+	.more
+		&__inside
+			padding: 70px 20px
+		&__text-part
+			width: 100%
+		&__parag
+			width: 100%
+	.footer
+		padding: 90px 0
  
